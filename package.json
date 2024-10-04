@@ -1,0 +1,31 @@
+{
+  "name": "webgl-read-pixels-async",
+  "version": "0.0.3",
+  "description": "Allows to read pixels from webgl2 context asynchronously",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stepancar/webgl-read-pixels-async.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Stepan Mikhailiuk <https://github.com/stepancar>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "webgl",
+    "webgl2",
+    "readPixels",
+    "performance"
+  ]
+}
